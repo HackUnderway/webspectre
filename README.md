@@ -1,7 +1,7 @@
 <h1 align="center">WebSpectre 🔎</h1>
 
 <p align="center">
-  Escáner web avanzado que permite rastrear sitios, detectar enlaces válidos y generar reportes en múltiples formatos.
+  Escáner web avanzado que permite detectar enlaces válidos de sitios y generar reportes en múltiples formatos.
 </p>
 
 <p align="center">
