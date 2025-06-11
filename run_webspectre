@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import sys
+import os
+
+# Calcula la ruta del proyecto raíz
+project_root = os.path.dirname(os.path.abspath(__file__))
+
+# Añade el path al directorio raíz donde está el paquete
+sys.path.insert(0, project_root)
+
+from webspectre_scanner.__main__ import main
+
+if __name__ == "__main__":
+    main()
+
