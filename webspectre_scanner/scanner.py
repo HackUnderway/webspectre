@@ -102,7 +102,7 @@ class WebSpectreScanner:
         for line in banner_lines:
             print_shaded_text(line, start_color, end_color)
             
-        credits_text = "The Silent WebSpectre Scanner - By: Jey Zeta & Neo Zero"
+        credits_text = "The Silent WebSpectre Scanner - By: Jey Zeta & Frank Prime"
         print_shaded_text(credits_text, start_color, end_color)
         
         from rich.console import Console
