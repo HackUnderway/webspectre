@@ -95,7 +95,7 @@ class WebSpectreScanner:
 "██▪▐█▐▐▌▐▀▀▪▄▐█▀▀█▄▄▀▀▀█▄ ██▀·▐▀▀▪▄██ ▄▄ ▐█.▪▐▀▀▄ ▐▀▀▪▄",
 "▐█▌██▐█▌▐█▄▄▌██▄▪▐█▐█▄▪▐█▐█▪·•▐█▄▄▌▐███▌ ▐█▌·▐█•█▌▐█▄▄▌",
 " ▀▀▀▀ ▀▪ ▀▀▀ ·▀▀▀▀  ▀▀▀▀ .▀    ▀▀▀ ·▀▀▀  ▀▀▀ .▀  ▀ ▀▀▀"
-#"The Silent WebSpectre Scanner - By: Jey Zeta & Neo Zero",
+#"The Silent WebSpectre Scanner - By: Jey Zeta & Frank Prime,
         ]
         
         # Imprimir cada línea del banner con degradado
@@ -110,7 +110,7 @@ class WebSpectreScanner:
         texto = f"[blink]{' ' * 15}🔥 hackunderway.com 🔥[/]"
         console.print(texto, style="bold red")
         
-        #credits_text = "The Silent WebSpectre Scanner - By: Jey Zeta & Neo Zero"
+        #credits_text = "The Silent WebSpectre Scanner - By: Jey Zeta & Frank Prime"
         #print_shaded_text(credits_text, start_color=Color(0, 80, 0), end_color=Color(0, 255, 127))
         
         # La última línea con estilo especial
@@ -120,7 +120,7 @@ class WebSpectreScanner:
         """Ejecuta el escaneo completo"""
         self.print_banner()
         
-        target_url = self.args.url if self.args.url else input("\n[🌐] Enter URL (e.g., https://example.com): ")
+        target_url = self.args.url if self.args.url else input("\n[ 🌐] Enter URL (e.g., https://example.com): ")
         validated_url = validate_url(target_url)
         
         print("\n[*] Configuración:")
